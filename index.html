@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Third Week</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+  </head>
+  <body style="padding-left: 50px;padding-right: 50px;">
+    <section class="header" style="font-family:'Montserrat';display:flex;flex-direction: column;gap:12px">
+      <h1 class="article-title" style="margin-bottom: 0;">What Is SIMD and How To Use It</h1>
+      <div class="article-pubclication-info" style="font-style: italic;display:flex;flex-direction: column;gap:4px">
+        <div class="article-writer" style="display:flex;gap:12px;">
+          <span><b>Penerbit: </b></span> 
+          <span>M. Zaidaan Nugroho</span>
+        </div>
+        <div class="article-release-date" style="display:flex;gap:12px;">
+          <span><b>Terbit: </b></span>
+          <span>Senin, 10 Maret 2026</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="content" style="font-family:'SF Pro'; display:flex;flex-direction:column;gap:50px;align-items: center;justify-content: center;padding-left:70px;padding-right:70px;">
+      <img class="content-thumbnail" src="assets/images/main-image.png" style="aspect-ratio:1/1;width:300px;">
+      <div class="content-body" style="font-size:16px;">
+        <p>
+          Single instruction, multiple data (SIMD) is a type of <a href="https://en.wikipedia.org/wiki/Parallel_computing">parallel computing</a> (processing) in <a href="https://en.wikipedia.org/wiki/Flynn%27s_taxonomy">Flynn's taxonomy</a>. SIMD describes computers with <a href="https://en.wikipedia.org/wiki/Multiple_processing_elements">multiple processing elements</a> that perform the same operation on multiple data points simultaneously. SIMD can be internal (part of the hardware design) and it can be directly accessible through an <a href="https://en.wikipedia.org/wiki/Instruction_set_architecture">instruction set architecture (ISA)</a>, but it should not be confused with an ISA.
+        </p>
+        <p>
+          Such machines exploit <a href="https://en.wikipedia.org/wiki/Data_parallelism">data level parallelism</a>, but not <a href="https://en.wikipedia.org/wiki/Concurrent_computing">concurrency</a>: there are simultaneous (parallel) computations, but each unit performs exactly the same instruction at any given moment (just with different data). A simple example is to add many pairs of numbers together, all of the SIMD units are performing an addition, but each one has different pairs of values to add. SIMD is especially applicable to common tasks such as adjusting the contrast in a <a href="https://en.wikipedia.org/wiki/Digital_image">digital image</a> or adjusting the volume of <a href="https://en.wikipedia.org/wiki/Digital_audio">digital audio</a>. Most modern <a href="https://en.wikipedia.org/wiki/Central_processing_unit">central processing unit (CPU)</a> designs include SIMD instructions to improve the performance of <a href="https://en.wikipedia.org/wiki/Multimedia">multimedia</a> use. In recent CPUs, SIMD units are tightly coupled with cache hierarchies and prefetch mechanisms, which minimize latency during large block operations. For instance, AVX-512-enabled processors can prefetch entire cache lines and apply fused multiply-add operations (FMA) in a single SIMD cycle.
+        </p>
+      </div>
+      <div class="content-documentation" style="display:flex;gap:28px">
+        <img src="assets/images/second-image.png" style="aspect-ratio: 1/1;width:300px">
+        <img src="assets/images/third-image.png" style="aspect-ratio: 1/1;width:300px">
+      </div>
+    </section>
+
+    <section class="footer" style="font-family:'Montserrat';display:flex;flex-direction:column;align-items: center;justify-content: center;gap:12px">
+      <hr style="border:none;height: 1px;background-color: black;width: 100%;margin: 20px auto;">
+      <i>M Zaidaan Nugroho_2201020011_2026</i>
+    </section>
+  </body>
+</html>
