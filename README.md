@@ -1,30 +1,28 @@
-📌 Project Overview
-This project is an assignment for the Web Design course (Week 3). The objective was to create a clean, readable article layout about SIMD (Single Instruction, Multiple Data) while strictly applying the C.R.A.P. design principles using inline CSS and HTML.
-🎨 Design Principles Applied (C.R.A.P.)
-The layout focuses on four pillars of design to improve user experience and readability:
-Contrast: Used bold weights for labels (e.g., Penerbit, Terbit) and dark text against a clean background to make key information pop.
-Repetition: Established a consistent visual language by using the Montserrat font for headings/footers and maintaining uniform image aspect ratios (1:1).
-Alignment: Utilized flexbox to create a structured vertical flow. The header is left-aligned for quick scanning, while the main content body is centered to focus the reader's attention.
-Proximity: Related information is grouped together using gap properties. For example, the writer's name and publication date are closely grouped in the header, separate from the main article body.
-🛠️ Technical Stack
-HTML5: Semantic structure using <section>, <h1>, and <p> tags.
-CSS3: Flexbox for layout positioning and inline styling for design implementation.
-Typography:
-Montserrat (via Google Fonts) for branding and UI elements.
-SF Pro / Sans-Serif for high-readability body text.
-📂 File Structure
-text
-.
-├── index.html          # Main project file
+# Week 3: C.R.A.P. Design Principles in HTML
+
+## 📌 Project Overview
+This project is an assignment for the **Web Design** course (Week 3). The objective was to create a clean, readable article layout about **SIMD (Single Instruction, Multiple Data)** while strictly applying the **C.R.A.P.** design principles using HTML and inline CSS.
+
+## 🎨 Design Principles Applied (C.R.A.P.)
+The layout focuses on four pillars of design to improve user experience:
+
+*   **Contrast:** Used bold weights for metadata labels (e.g., **Penerbit**, **Terbit**) and distinct font weights to separate the article title from the body.
+*   **Repetition:** Established a consistent visual language by using the **Montserrat** font for the header/footer and maintaining uniform **1:1 aspect ratios** for all images.
+*   **Alignment:** Utilized `flexbox` for structured alignment. The header uses vertical stacking, while the content section uses centered alignment to create a balanced focal point.
+*   **Proximity:** Related elements are grouped using the `gap` property. Publication info is tightly grouped at the top, while documentation images are placed together at the bottom to indicate they belong to the same context.
+
+## 🛠️ Technical Implementation
+*   **HTML5:** Semantic structure using `<section>`, `<h1>`, `<div>`, and `<img>` tags.
+*   **CSS3 (Inline):** Extensive use of `display: flex` for layout control, `gap` for spacing, and `aspect-ratio` for image consistency.
+*   **Typography:** 
+    *   **Montserrat**: Integrated via Google Fonts for headings and UI elements.
+    *   **SF Pro**: Used for the body text to ensure high readability.
+
+## 📂 Project Structure
+```text
+├── index.html              # Main HTML source code
 └── assets/
     └── images/
-        ├── main-image.png    # Primary thumbnail
-        ├── second-image.png  # Documentation image 1
-        └── third-image.png   # Documentation image 2
-Use code with caution.
-
-👤 Student Information
-Name: M. Zaidaan Nugroho
-Student ID: 2201020011
-Date: March 10, 2026
-Submitted as part of the Web Design Course Curriculum.
+        ├── main-image.png   # Primary article thumbnail
+        ├── second-image.png # Documentation image 1
+        └── third-image.png  # Documentation image 2
