@@ -3,6 +3,8 @@
 ## 📌 Project Overview
 This project is an assignment for the **Web Design** course (Week 3). The objective was to create a clean, readable article layout about **SIMD (Single Instruction, Multiple Data)** while strictly applying the **C.R.A.P.** design principles using HTML and inline CSS.
 
+<img width="2977" height="1776" alt="image" src="https://github.com/user-attachments/assets/1e150ba1-decd-427e-ae7e-03ec54a0b506" />
+
 ## 🎨 Design Principles Applied (C.R.A.P.)
 The layout focuses on four pillars of design to improve user experience:
 
